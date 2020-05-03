@@ -1,0 +1,17 @@
+{
+  "user": "Derek",
+
+  "roles": [
+        "Manager",
+        "Designer",
+        "HR Director"
+    ],
+
+    "birthdate": "04/10/1976",
+    
+    "dependents": [
+      "Beth",
+      "John",
+      "Deb"
+    ]
+}
