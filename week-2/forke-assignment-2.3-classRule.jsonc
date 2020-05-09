@@ -1,0 +1,47 @@
+/*
+============================================
+; Title: Assignment 2.3
+; Author: Nicole Forke
+; Date: 09 May 2020
+; Modified By: Nicole Forke
+; Description: NodeTech NoSQL Data - Rule 1
+============================================
+*/
+
+// class
+{
+  "class": {
+    "_id": 502,
+    "name": "English",
+
+    // enroll
+    "enroll": [
+      {
+        "_id": 101,
+        "grade": "A"
+      },
+
+      {
+        "_id": 104,
+        "grade": "B"
+      }
+    ],
+
+    // student
+    "student": [
+      {
+        "_id": 101,
+        "first_name": "Sam",
+        "last_name": "Jones",
+        "mi": "J"
+      },
+
+      {
+        "_id": 104,
+        "first_name": "Amy",
+        "last_name": "Wildon",
+        "mi": "M"
+      }
+    ]
+  }
+}

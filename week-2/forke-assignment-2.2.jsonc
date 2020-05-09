@@ -1,0 +1,82 @@
+/*
+================================
+; Title: Assignment 2.2
+; Author: Nicole Forke
+; Date: 04 May 2020
+; Modified By: Nicole Forke
+; Description: NodeShopper ORD
+================================
+*/
+
+// customer
+{
+  "customer": {
+    "_id": 1,
+    "first_name": "John",
+    "last_name": "Smith",
+    "date_of_birth": "01/10/1976",
+    "user_name": "jsmith",
+
+    // first invoice
+    "invoiceOne": [
+      {
+        "_id": 0123,
+        "date_created": "04/20/2020",
+        "date_shipped": "04/23/2020",
+        "subtotal": "34.99",
+        "tax": "2.35",
+        "total": "36.84"
+      },
+
+      // line items on first invoice
+      {
+        "line_item": [
+          {
+            "_id": 2066,
+            "name": "headphones",
+            "price": "22.50",
+            "quantity": 1
+          },
+
+          {
+            "_id": 2045,
+            "name": "Monster High Novel",
+            "price": "10.99",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+
+    // second invoice
+    "invoiceTwo": [
+      {
+        "_id": 0124,
+        "date_created": "05/13/2020",
+        "date_shipped": "05/14/2020",
+        "subtotal": "11.00",
+        "tax": "0.77",
+        "total": "11.77"
+      },
+
+      // line items on second invoice
+      {
+        "line_item": [
+          {
+            "_id": 2012,
+            "name": "candy",
+            "price": "3.50",
+            "quantity": 1
+          },
+
+          {
+            "_id": 2010,
+            "name": "soda",
+            "price": "7.50",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+}
