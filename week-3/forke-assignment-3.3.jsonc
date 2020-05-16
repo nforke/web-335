@@ -1,0 +1,49 @@
+/*
+=============================================
+; Title: Assignment 3.3
+; Author: Nicole Forke
+; Date: 16 May 2020
+; Modified By: Nicole Forke
+; Description: NodeBookCo
+=============================================
+*/
+
+// novel
+{
+  "novel": 
+  {
+  "book_isbn": "9780062931092",
+  "booK_name": "All the Ways We Said Goodbye",
+  "book_price": "$25.99"
+  },
+
+  // authors
+  "authors": [
+    {
+      "author_first_name": "Beatriz",
+      "author_last_name": "Williams",
+      "author_phone": "213-425-6255",
+      "author_email": "bwilliams@outlook.com"
+    },
+    {
+      "author_first_name": "Lauren",
+      "author_last_name": "Willig",
+      "author_phone": "362-123-4849",
+      "author_email": "lwillig@outlook"
+    },
+    {
+      "author_first_name": "Karen",
+      "author_last_name": "White",
+      "author_phone": "214-365-1788",
+      "author_email": "kwhite@outlook.com"
+    }
+  ],
+
+  // publisher
+  "publisher":
+    {
+      "publisher_name": "Harper Collins Publishers",
+      "publisher_code": "375",
+      "publisher_address": "1745 Broadway, New York, NY"
+    }
+}

@@ -1,0 +1,29 @@
+/*
+=============================================
+; Title: Assignment 3.2
+; Author: Nicole Forke
+; Date: 16 May 2020
+; Modified By: Nicole Forke
+; Description: NodeSecurity - Business rules
+=============================================
+*/
+
+// user
+{
+  "user": "John Smith",
+
+  "roles": [
+    "Owner",
+    "HR Manager",
+    "Accounting"
+  ],
+
+// role
+  "role": "Assistant",
+
+  "permissions": [
+    "LogIn",
+    "Process Transactions",
+    "Employee Records"
+  ]
+}
